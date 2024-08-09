@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 550px;
+  margin: 0 auto;
+  background-color: #FAF5EF;
+  font-family: "Inter", sans-serif;
+  color: #2B283A;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  gap: 5px;
+  color: #FFFFFF;
+  height: 55px;
+}
+
+.title {
+  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: -1.085px;
+}
+
+.main {
+  background-color: #FFFFFF;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-wrapper {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  margin-top: -12px;
+}
+
+.card-image {
+  width: 125px;
+  height: 168px;
+  margin: 2em 2em 2em 0;
+  border-radius: 5px;
+}
+
+.card-wrapper {
+  height: 168px;
+}
+
+.card-location {
+  margin-right: 20px;
+  letter-spacing: 1.741px;
+  margin-bottom: 0;
+}
+
+.map-marker {
+  color: #F55A5A;
+  width: 7px;
+  height: 9.545px;
+  margin-bottom: 0;
+}
+
+.map-link {
+  color: #918E9B;
+  text-decoration: none;
+  margin-bottom: -10px;
+}
+
+.card-title {
+  font-size: 1.5625rem;
+  margin-top: -10px;
+}
+
+.card-dates {
+  margin-top: -10px;
+}
+
+.card-description {
+  width: 326px;
+  line-height: 1.5;
+}
+
+hr {
+  width: 478px;
+  height: 1px;
+  background-color: #F5F5F5;
+  border: none;
+}
+
+.card-description, .card-dates, .map-link, .card-location {
+  font-size: 0.64rem;
+}
+
+.card-description, .map-link, .card-location {
+  font-weight: 400;
+}
+
+.card-title, .card-dates {
+  font-weight: 700;
+}
